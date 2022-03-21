@@ -153,7 +153,7 @@ function deselectAnswers() {
 function getSelected() {
     let answer
     answerElements.forEach(answerElements => {
-        if (answerElements.click) {
+        if (answerElements.checked) {
             answer = answerElements.id
         }
     })

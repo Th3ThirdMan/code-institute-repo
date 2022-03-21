@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Music Quiz">
+  <meta name="keywords" content="Music Quiz">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/ffa68cfa88.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Now That's What I Call A Music Quiz></title>
+</head>
+
+<body>
+
+  <!-- The Landing Page for the Quiz -->
+
+  <section id="start-box">
+    <div class="inner-box">
+      <h2 id="title-box">Now That's What I Call A Music Quiz <i class="fas fa-headphones"></i></h2>
+      <hr>
+      <div class="test-box">
+        <p id="test-box-p">Here are 10 Questions to Test your Music knowledge <i class="fas fa-music"></i></p>
+        <p id="test-start-p">Click START to Begin</p>
+        <div id="start-area">
+          <button id="start-btn-btn" class="start-btn">Start
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- The Information Details For the Quiz -->
+
+  <section id="information-area" class="hide">
+    <div class="information-box">
+        <h2 id="information-header">Now That's What I Call A Music Quiz <i class="fas fa-headphones"></i></h2>
+        <div class="information-info">Quiz Information</div>
+        <hr>
+        <div>
+            <ul>
+                <li>This Music Quiz contains 10 questions</li>
+                <li>Click Continue below to start the quiz</li>
+                <li>On the next screen choose your answers and click Submit</li>
+                <li>A final score summary of your musical prowess will be revealed at the end of the quiz!</li>
+                </ul>
+        </div>
+        <hr>
+        <div id="information-btns">
+        <button id="information-back" class="btn-back">Back</button>
+        <button id="information-continue" class="btn-continue">Continue</button>
+        </div>
+    </div>
+  </section>
+
+  
+<section id="question-bank" class="hide">
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <p id="progress"></p>
+      <h2 id="question">Now That's What I Call A Music Quiz </h2>
+      <ul>
+        <li>
+          <input type="button" name="answer" id="a" class="answer">
+          <label for="a" id="a_data"></label>
+        </li>
+
+        <li>
+          <input type="button" name="answer" id="b" class="answer">
+          <label for="b" id="b_data"></label>
+        </li>
+
+        <li>
+          <input type="button" name="answer" id="c" class="answer">
+          <label for="c" id="c_data"></label>
+        </li>
+
+        <li>
+          <input type="button" name="answer" id="d" class="answer">
+          <label for="d" id="d_data"></label>
+        </li>
+
+      </ul>
+    </div>
+    <div>
+    <button id="submit">SUBMIT</button>
+    <button id="question-btn-back">BACK</button>
+  </div>
+  </div>
+</section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

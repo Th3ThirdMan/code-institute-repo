@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&family=Roboto:wght@100&display=swap');
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body .correct {
+    background-color: green;
+}
+
+body .incorrect {
+    background-color: red;
+}
+
+#start-box,
+#information-area,
+#question-bank {
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.inner-box {
+    position: absolute;
+    height: 60vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background: #680a0a;
+    border: 1px solid black;
+}
+
+#title-box {
+    font-family: 'Libre Baskerville', sans-serif;
+    line-height: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.test-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#test-box-p {
+    padding: 18px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: orange;
+}
+
+#test-start-p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.start-area {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.start-btn {
+    background-color: rgb(24, 23, 23);
+    width: 200px;
+    height: 70px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.start-btn:hover {
+    background-color: rgb(202, 133, 4);
+}
+
+#start-btn-btn {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.information-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 65vh;
+    transform: translate(-50%, -50%);
+    background: #680a0a;
+    border: 1px solid black;
+}
+
+#information-header {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.information-info {
+    color: orange;
+    font-size: 25px;
+    text-align: center;
+}
+
+div ul {
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+
+#information-back {
+    background-color: rgb(24, 23, 23);
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+
+#information-back:hover {
+    background-color: rgb(202, 133, 4);
+}
+
+.btn-back {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+#information-continue {
+    background-color: rgb(24, 23, 23);
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 15px;
+    float: right;
+    margin: 10px 10px;
+}
+
+#information-continue:hover {
+    background-color: rgb(202, 133, 4);
+}
+
+.btn-continue {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.quiz-container {
+    color: white;
+    font-family: 'Libre Baskerville', sans-serif;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 80vh;
+    background: #680a0a;
+    border: 1px solid black;
+    transform: translate(-50%, -50%);
+}
+
+input[type=button] {
+    color: orange;
+}
+
+.quiz-header {
+    padding: 5rem;
+}
+
+#question,
+h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+.btn .correct {
+    background: green;
+    color: black;
+}
+
+.btn .incorrect {
+    background: red;
+    color: white;
+}
+
+#submit {
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 15px;
+    float: right;
+    margin: 10px 10px;
+    text-transform: capitalize;
+}
+
+#submit:hover {
+    background-color: rgb(202, 133, 4);
+}
+
+.reload {
+    background: black;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1.3rem;
+}
+
+#question-btn-back {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 10px 10px;
+}
+
+#question-btn-back:hover {
+    background-color: rgb(202, 133, 4);
+}
